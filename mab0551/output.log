@@ -1,0 +1,53 @@
+Running job bacteria
+
+Requirement already satisfied: sendgrid in /usr/local/lib/python3.8/dist-packages (6.10.0)
+Requirement already satisfied: python-http-client>=3.2.1 in /usr/local/lib/python3.8/dist-packages (from sendgrid) (3.3.7)
+Requirement already satisfied: starkbank-ecdsa>=2.0.1 in /usr/local/lib/python3.8/dist-packages (from sendgrid) (2.2.0)
+2024-07-29 17:48:54,340 Running colabfold 1.5.5 (07644a8bbfbc00c96e7d897d96fb3b11d974b766)
+2024-07-29 17:48:55,460 Running on GPU
+2024-07-29 17:48:56,278 Found 5 citations for tools or databases
+2024-07-29 17:48:56,278 Query 1/1: bacteria (length 262)
+2024-07-29 17:48:56,799 Sleeping for 7s. Reason: PENDING
+2024-07-29 17:49:04,290 Sleeping for 10s. Reason: RUNNING
+2024-07-29 17:49:14,813 Sleeping for 10s. Reason: RUNNING
+2024-07-29 17:49:27,295 Setting max_seq=512, max_extra_seq=2726
+2024-07-29 17:50:29,329 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=90.2 pTM=0.86
+2024-07-29 17:50:50,507 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=90.6 pTM=0.864 tol=0.427
+2024-07-29 17:51:11,747 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=90.9 pTM=0.867 tol=0.525
+2024-07-29 17:51:33,033 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=91 pTM=0.867 tol=0.583
+2024-07-29 17:51:33,033 alphafold2_ptm_model_1_seed_000 took 103.5s (3 recycles)
+2024-07-29 17:51:54,423 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=89.4 pTM=0.858
+2024-07-29 17:52:15,751 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=89.6 pTM=0.86 tol=0.859
+2024-07-29 17:52:37,105 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=89.8 pTM=0.862 tol=0.75
+2024-07-29 17:52:58,457 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=89.9 pTM=0.862 tol=0.05
+2024-07-29 17:52:58,457 alphafold2_ptm_model_2_seed_000 took 85.3s (3 recycles)
+2024-07-29 17:53:19,902 alphafold2_ptm_model_3_seed_000 recycle=0 pLDDT=91.2 pTM=0.864
+2024-07-29 17:53:41,286 alphafold2_ptm_model_3_seed_000 recycle=1 pLDDT=91.9 pTM=0.875 tol=0.426
+2024-07-29 17:54:02,660 alphafold2_ptm_model_3_seed_000 recycle=2 pLDDT=92.2 pTM=0.877 tol=0.369
+2024-07-29 17:54:24,049 alphafold2_ptm_model_3_seed_000 recycle=3 pLDDT=92.3 pTM=0.878 tol=0.215
+2024-07-29 17:54:24,050 alphafold2_ptm_model_3_seed_000 took 85.5s (3 recycles)
+2024-07-29 17:54:45,534 alphafold2_ptm_model_4_seed_000 recycle=0 pLDDT=90.6 pTM=0.86
+2024-07-29 17:55:06,921 alphafold2_ptm_model_4_seed_000 recycle=1 pLDDT=90.9 pTM=0.867 tol=0.528
+2024-07-29 17:55:28,322 alphafold2_ptm_model_4_seed_000 recycle=2 pLDDT=91.1 pTM=0.87 tol=0.238
+2024-07-29 17:55:49,714 alphafold2_ptm_model_4_seed_000 recycle=3 pLDDT=91.2 pTM=0.872 tol=0.201
+2024-07-29 17:55:49,714 alphafold2_ptm_model_4_seed_000 took 85.6s (3 recycles)
+2024-07-29 17:56:11,195 alphafold2_ptm_model_5_seed_000 recycle=0 pLDDT=92 pTM=0.876
+2024-07-29 17:56:32,602 alphafold2_ptm_model_5_seed_000 recycle=1 pLDDT=92.2 pTM=0.883 tol=0.61
+2024-07-29 17:56:54,002 alphafold2_ptm_model_5_seed_000 recycle=2 pLDDT=92.3 pTM=0.885 tol=0.304
+2024-07-29 17:57:15,416 alphafold2_ptm_model_5_seed_000 recycle=3 pLDDT=92.4 pTM=0.885 tol=0.177
+2024-07-29 17:57:15,417 alphafold2_ptm_model_5_seed_000 took 85.6s (3 recycles)
+2024-07-29 17:57:15,504 reranking models by 'plddt' metric
+2024-07-29 17:57:15,504 rank_001_alphafold2_ptm_model_5_seed_000 pLDDT=92.4 pTM=0.885
+2024-07-29 17:57:15,505 rank_002_alphafold2_ptm_model_3_seed_000 pLDDT=92.3 pTM=0.878
+2024-07-29 17:57:15,505 rank_003_alphafold2_ptm_model_4_seed_000 pLDDT=91.2 pTM=0.872
+2024-07-29 17:57:15,505 rank_004_alphafold2_ptm_model_1_seed_000 pLDDT=91 pTM=0.867
+2024-07-29 17:57:15,505 rank_005_alphafold2_ptm_model_2_seed_000 pLDDT=89.9 pTM=0.862
+2024-07-29 17:57:17,012 Done
+Requirement already satisfied: boto3 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (1.26.158)
+Requirement already satisfied: botocore<1.30.0,>=1.29.158 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (from boto3) (1.29.158)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (from boto3) (1.0.1)
+Requirement already satisfied: s3transfer<0.7.0,>=0.6.0 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (from boto3) (0.6.1)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (from botocore<1.30.0,>=1.29.158->boto3) (2.9.0.post0)
+Requirement already satisfied: urllib3<1.27,>=1.25.4 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (from botocore<1.30.0,>=1.29.158->boto3) (1.26.18)
+Requirement already satisfied: six>=1.5 in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.30.0,>=1.29.158->boto3) (1.16.0)
+Requirement already satisfied: tqdm in ./localcolabfold/colabfold-conda/lib/python3.10/site-packages (4.66.4)
